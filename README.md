@@ -6,7 +6,7 @@ php-java-cross-crypto-helper
 http://www.androidsnippets.com/encrypt-decrypt-between-android-and-php.html
 
 
-HOW TO USE IT (JAVA) --
+Using in JAVA --
 
 MCrypt mcrypt = new MCrypt(); <br />
 //Encrypt <br />
@@ -15,7 +15,7 @@ String encrypted = MCrypt.bytesToHex( mcrypt.encrypt("Text to Encrypt") ); <br /
 String decrypted = new String( mcrypt.decrypt( encrypted ) ); <br />
 
 ------------------------------------
-HOW TO USE IT (PHP) --
+Using in PHP --
 
 $mcrypt = new MCrypt(); <br />
 //Encrypt <br />
