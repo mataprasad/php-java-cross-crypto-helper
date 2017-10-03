@@ -8,7 +8,7 @@ http://www.androidsnippets.com/encrypt-decrypt-between-android-and-php.html
 
 HOW TO USE IT (JAVA) --
 
-mcrypt = new MCrypt(); <br />
+MCrypt mcrypt = new MCrypt(); <br />
 //Encrypt <br />
 String encrypted = MCrypt.bytesToHex( mcrypt.encrypt("Text to Encrypt") ); <br />
 //Decrypt <br />
